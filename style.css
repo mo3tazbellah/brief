@@ -1,0 +1,23 @@
+body {
+    font-family: 'Russo One', sans-serif;
+}
+
+h1 {
+    color: #fff;
+    text-shadow: 4px 4px black;
+    -webkit-text-stroke: 2px black;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-family: 'Russo One', sans-serif;
+    font-size: 3.3rem;
+}
+
+.web{
+    border: 2px solid #000;
+}
+
+.web a{
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 3px 3px black;
+    -webkit-text-stroke: 2px black;
+}
