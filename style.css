@@ -2,7 +2,7 @@ body {
     font-family: 'Russo One', sans-serif;
 }
 
-h1 , h2 {
+h1 {
     color: #fff;
     text-shadow: 4px 4px black;
     -webkit-text-stroke: 2px black;
@@ -40,7 +40,7 @@ h1 , h2 {
     letter-spacing: 3px;
     background-color: #FDFA44;
     color: #492AF9;
-    padding: 0 3px;
+    padding: 3px;
 }
 
 .mail:hover{

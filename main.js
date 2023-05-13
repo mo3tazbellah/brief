@@ -43,4 +43,8 @@ function mailType() {
        setTimeout(mailType,75)
     }
 }
-mailType()
+mailType();
+
+a.addEventListener('click',()=>{
+    document.querySelector('audio').play()
+})
