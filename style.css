@@ -11,13 +11,27 @@ h1 {
     font-size: 3.3rem;
 }
 
-.web{
+.web {
     border: 2px solid #000;
 }
 
-.web a{
+.web a {
     font-size: 2rem;
-    color: #fff;
-    text-shadow: 3px 3px black;
-    -webkit-text-stroke: 2px black;
 }
+
+.first {
+    background-color: #6961FF;
+}
+.first a{color: #FDFA44;}
+.second {
+    background-color: #FBDA69;
+}
+.second a{color: #492AF9;}
+
+.third {
+    background-color: #e9560d;
+}
+.third a{color: #61C2D0;}
+.fourth{background-color: #009AD8;}
+
+.fourth a{color: #fff;}
