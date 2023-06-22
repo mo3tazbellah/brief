@@ -11,39 +11,29 @@ h1 {
     font-size: 3.3rem;
 }
 
-.web {
-    border: 2px solid #000;
+.no{
+    font-size: 1.25rem;
+    color: blueviolet;
+}
+.container a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.5rem;
 }
 
-.web a {
-    font-size: 2rem;
+
+.container a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 0px;
+    height: 6px;
+    background-color: yellow;
+    transition: width .3s;
 }
 
-.first {
-    background-color: #6961FF;
-}
-.first a{color: #FDFA44;}
-.second {
-    background-color: #FBDA69;
-}
-.second a{color: #492AF9;}
-
-.third {
-    background-color: #e9560d;
-}
-.third a{color: #61C2D0;}
-.fourth{background-color: #009AD8;}
-
-.fourth a{color: #fff;}
-
-.mail{
-    letter-spacing: 3px;
-    background-color: #FDFA44;
-    color: #492AF9;
-    padding: 3px;
-}
-
-.mail:hover{
-    color: #FDFA44;
-    background-color: #492AF9;
+.container a:hover::after{
+    width: 100%;
 }
